@@ -1,0 +1,5 @@
+inflection==0.5.1
+numpy==1.26.1
+pandas==2.1.1
+statsmodels==0.14.0
+streamlit==1.27.2
