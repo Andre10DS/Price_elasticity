@@ -1,6 +1,6 @@
 # Price Elasticity
 
-## Este projeto visa criar uma ferramenta para facilitar a avaliação do impacto da mudança nos preços de cada produto.
+## Este projeto visa criar uma ferramenta para facilitar a avaliação do impacto na demanda após a alteração nos preços de cada produto.
 O projeto consistir em criar uma ferramenta para a empresa Consultoria Varejo S.A. que facilite a análise da mudança e o impacto da mudança no preço em determinados produtos de cada loja de varejo. Tal ferramenta poderá ser comercializada junto aos varejistas que ppoderão disponibilizar aos seus times de precificação com o intuito de embasar, facilitar e melhorar as análises de determinação do preço.
 
 Para cumprir o objetivo será desenvolvido um modelo baseado em regressão para determinar a elasticidade do preço de cada produto utilizando a base de dados disponilizada pelos varejistas.
@@ -87,7 +87,7 @@ A empresa Consultoria Varejo S.A. precisa de uma ferramenta que auxilie no proce
   - Exportar o scripty para o Git.
   - Efetuar o deploy do scripty no streamlit.
 
-# 5. Aplicação dos modelos de Machine Learning
+# 5. Aplicação do modelo de Machine Learning
 
 Para o desenvolvimento do projeto foi utilizado o modelo de regressão linear da biblioteca statsmodels. A biblioteca possui funções que possibilita a verificação e utilização do coeficiente angula para calcular a elasticidade do preço.
 
@@ -96,7 +96,7 @@ Para o desenvolvimento do projeto foi utilizado o modelo de regressão linear da
 Nesta etapa atráves da utilização do modelo de regressão linear foi possivel verificar os valores de elasticidade, coeficiente angular e p-valor que possbilita 
 
 
-<img src="https://github.com/Andre10DS/Price_elasticity/blob/main/img/Performance.png?raw=true" alt="Produtos" title="Elasticidade do preço-demanda da categoria Laptop, computer" align="center" height="500" class="center"/>
+<img src="https://github.com/Andre10DS/Price_elasticity/blob/main/img/Performance.png?raw=true" alt="Produtos" title="Elasticidade do preço-demanda da categoria Laptop, computer" align="center" height="400" class="center"/>
 
 Podemos verificar na tabela acima que os produtos que apresentaram maiores elasticidade foram o Dell - Inspiron 15.6 Laptop - Intel Core i5 - 8GB Memory (-34.12), 12 MacBook (-32.58) e o Details About Apple Macbook Air 13.3 Laptop (-11.61). 
 
@@ -106,7 +106,7 @@ Podemos verificar na tabela acima que os produtos que apresentaram maiores elast
 Conforme premissa adotada para a analise será realizada um desconto de 10% no preço dos produtos da categoria "laptop, computer". Segue abaixo a tabela de impacto com a relação do faturamento atual,  o novo faturamento, a variação nominal do faturamento e a variação percentual do faturamento:
 
 
-<img src="https://github.com/Andre10DS/Price_elasticity/blob/main/img/Impacto.png?raw=true" alt="Produtos" title="Impacto no faturamento com o desconto de 10% no preço dos pordutos da categoria Laptop, computer" align="center" height="500" class="center"/>
+<img src="https://github.com/Andre10DS/Price_elasticity/blob/main/img/Impacto.png?raw=true" alt="Produtos" title="Impacto no faturamento com o desconto de 10% no preço dos pordutos da categoria Laptop, computer" align="center" height="400" class="center"/>
 
 
 Com base nos resultados obtidos na tabela acima pode ser verificado se o desconto de 10% fosse aplicado a todos o produtos da categoria "laptop, computer" teríamos tanto produtos com aumento quanto com redução de receita. O impacto seria um crescimento de US$ 18.714,91. Porém, se fosse adotado o desconto somente nos produtos que apresentassem aumento no faturamento teríamos um incremento de US$ 42.744,77.
